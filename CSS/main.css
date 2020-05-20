@@ -1,108 +1,174 @@
 
 * {
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+margin: 0;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
 }
 
+
 header nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between; 
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  min-height: 55px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: space-between; 
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+width: 100%;
+min-height: 55px;
 
-  padding: 0 3rem;
+padding-left: 2rem;
+padding-right: 2rem;
 
-  top: 0;
+top: 0;
 }
 
 
 .nav-bar-link{text-decoration: none; color: #393939 }
 .nav-bar-text{ list-style-type: none; font-family: Verdana ; font-size: 18px; 
-  font-style: normal; display: inline; margin-right: 20px;}
+font-style: normal; display: inline; margin-right: 20px;}
 .nav-bar-heading{ font-family: Verdana ; font-size: 18px;  color: #2d3982; float: left;}
 
 .hero-container{
-  background-color: #ffffff; 
-  column-count: 2;
-  column-gap: 20px;
-  column-rule-width: 70%;
-  padding-left: 50px;
-  padding-bottom: 50px;
-  margin-right: -130px;
-  /*column-rule-style:
+  padding-top: 2rem;
+background-color: #ffffff; 
+display: flex;
+object-fit: contain;
+float:left;
+
+
+/*column-count: 2;
+column-gap: 20px;
+column-rule-width: 50%;
+padding-left: 50px;
+padding-bottom: 50px; */
+/*margin-right: -130px;*/
+/*column-rule-style:
+
+column-rule-color:
+column-rule:
+column-span:
+column-width:*/
+}
+.hero-container-img{
+
+  height: 30%;
+width: 30%;
+ 
+  flex:1 0 0;
+  padding-right: 7%;
+  align-self: center;
   
-  column-rule-color:
-  column-rule:
-  column-span:
-  column-width:*/
   }
 
-  .hero-container-text{
-  
-    color:#101d42;
-    padding-right: 25px;
-    margin-right: 25px;
-    
-  }
-  
-  .hero-container-text-title{ 
-    font-family:"Comic Sans MS"; 
-    font-weight: bold;
-     padding-top: 2rem;
-     padding-bottom: 0rem;
-     padding-right: 1rem;
-     padding-left:3rem;
-     font-size: 33px;
-   
-    }
+.hero-container-text{
 
-    .hero-container-text-body{
-      font-family: verdana;
-      padding-top: 1rem;
-      padding-bottom: 2.5rem;
-      padding-right: 2rem;
-      padding-left:3rem;
-      font-size: 13px;
-      font-weight: 100;
-       
-    }
+color:#101d42;
+padding-right: 25px;
+padding-left: 5%;
+justify-content: left;
 
-    .hero-container-button{
-      margin-left: 50px;
-       }
+margin-right: 2rem;
+flex:1.5 0 0;
 
-       button{
-        
-        border-width: 0px;
-        background-color:#5969d0 ;
-        width: auto;
-        height:auto;
-        outline-style: none;
-      border-radius: 40px/30px;
-      border:none;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-      
-      }
-      
-      .button-text{
-        color:white;
-        font-family: verdana;
-        font-size:15px;
-        margin: 2rem 2rem;
+}
 
-        
-      }
-      .hero-container-img{
-      
-        height: 350px;
-       
-      }
+.hero-container-text-title{ 
+font-family:"Comic Sans MS"; 
+font-weight: bold;
+padding-top: 2rem;
+padding-bottom: 0rem;
+padding-right: 1rem;
+padding-left:3rem;
+font-size: 33px;
+
+}
+
+.hero-container-text-body{
+font-family: verdana;
+padding-top: 1rem;
+padding-bottom: 2.5rem;
+padding-right: 2rem;
+padding-left:3rem;
+font-size: 13px;
+font-weight: 100;
+
+}
+
+.hero-container-button{
+margin-left: 50px;
+}
+
+button{
+
+border-width: 0px;
+background-color:#5969d0 ;
+width: auto;
+height:auto;
+outline-style: none;
+border-radius: 40px/30px;
+border:none;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+
+}
+
+.button-text{
+color:#ffffff;
+font-family: verdana;
+font-size:15px;
+margin: 2rem 2rem;
+
+
+}
+
+
+main{background-color: #ffffff;overflow: visible; }
+
+
+.recommendations-text-title{  
+
+  font-family: helvetica;
+  color:#393939;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+  padding: 2rem;
+
+}
+.recommendations{
+ display: flex;
+ justify-content: space-around; 
+ 
+
+/*column-count: 3;
+column-gap: 70px;
+
+
+padding-bottom:0px;
+column-span:all;*/
+padding-left: 25%;
+padding-right: 5%;
+
+}
+.recommendations-card{
+  box-shadow: 0 5px 9px -1px rgba(0,0,0,0.25);
+  margin-bottom: 0px;
+  margin-right: 0px;
+
+}
+.recommendations-card_photo{
+
+  padding-top: 0pxs;
+  height: 350px;
+
+}
+
+.recommendations-card_container{
+
+}
+
+.recommendations-card_name{
+  text-align: left; }
