@@ -26,9 +26,9 @@ padding-right: 2rem;
 z-index: 10;
 }
 
-
+.active-link{border-bottom: 3px solid #e37889; padding-bottom: 7px;}
 .nav-bar-link{text-decoration: none; color: #393939 }
-.nav-bar-text{ list-style-type: none; font-family: Verdana ; font-size: 18px; 
+.nav-bar-text{ list-style-type: none; font-family: Verdana ; font-size: 15px; 
 font-style: normal; display: inline; margin-right: 20px;}
 .nav-bar-heading{ font-family: Verdana ; font-size: 18px;  color: #2d3982; float: left;}
 
@@ -36,24 +36,27 @@ font-style: normal; display: inline; margin-right: 20px;}
 
 }
 .destination-img{
-  min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
+  min-width: auto;
   width: 100%;
   height: auto;
-	
-  /* Set up positioning */
-  
-  top: 0;
-  left: 0;
-
+  display: flex;
+  z-index: -1;
+  display: flex;
+  background-repeat:no-repeat;
+  position: absolute;; 
+ 
+  top: -80%;
   
   }
   .destination-title{
   position: absolute;
   top:15%;
-  left: 7%;
+  left: 5%;
+  font-family: verdana;
+  color: #ffffff;
+  /*text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);*/
+  font-size: 60px;
+padding: 0.5rem;
 
   }
 
@@ -78,8 +81,8 @@ padding-left: 15%;
 padding-right: 15%;
 padding-bottom: 3%;
 position: absolute;
-top: 50%;
-right: 5%;
+top: 40%;
+left: 3%;
 
 }
 .recommendations-card{
@@ -89,33 +92,49 @@ right: 5%;
   text-align:right;
   position: relative;
   background-color:white;
-  height: 350px;
+  height: 360px;
   width:250px;
   border-radius: 5px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
   border:1px solid rgba(0,0,0,0.2);
+  padding: 0.5rem;
+  
 }
-.recommendations-card_photo{
 
-  padding-top: 0pxs;
-  height: 350px;
-  background-image: inherit;
 
-  width: 250px;
+
+.recommendations-card_heading{
+text-align: center;
  
-  
-}
-
-
-.recommendations-card_text{
-  position: absolute;
-  bottom:5%;
-  right: 7%;
- font-size: 23px;
+ font-size: 18px;
  font-weight: bold;
-  color: black;
+ color: #393939 ;
   font-family: verdana;
-  
+  border-bottom: 1px solid black;
+ 
+  margin: 0.5rem;
 
+}
+.recommendations-card_ul{
+  padding:0;
+}
+.recommendations-card_body{
+
+  text-align: center;
+  font-size: 15px;
+  font-family: verdana;
+  color: #393939 ;
+  background-color: #f0f0f0;
+  list-style-type: none;
+  padding-left: 0.5rem;
+  padding-right:0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+  font-weight: 100;
 }
 

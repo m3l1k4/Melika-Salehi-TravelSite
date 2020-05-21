@@ -27,10 +27,12 @@ z-index: 10;
 }
 
 
+.active-link{border-bottom: 3px solid #e37889; padding-bottom: 7px;}
 .nav-bar-link{text-decoration: none; color: #393939 }
-.nav-bar-text{ list-style-type: none; font-family: Verdana ; font-size: 18px; 
+.nav-bar-text{ list-style-type: none; font-family: Verdana ; font-size: 15px; 
 font-style: normal; display: inline; margin-right: 20px;}
 .nav-bar-heading{ font-family: Verdana ; font-size: 18px;  color: #2d3982; float: left;}
+
 
 .hero-container{
   padding-top: 4rem;
@@ -122,10 +124,12 @@ main{background-color: #ffffff;overflow: visible; }
 .recommendations-title{  
   display: flex;
   text-align: left;
-  padding: 2rem;
+  padding: 2rem 0 2rem 5rem;
   color: #101d42;
+  font-family: verdana;
 
 }
+
 
 
 .recommendations{
