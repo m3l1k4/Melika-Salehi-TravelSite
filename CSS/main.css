@@ -106,7 +106,10 @@ border:none;
 padding-top: 0.5rem;
 padding-bottom: 0.5rem;
 
+opacity:1;
+transition: 0.3s;
 }
+button:hover {opacity: 0.75}
 
 .button-text{
 color:#ffffff;
@@ -187,8 +190,8 @@ padding-bottom: 3%;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 350px;
-  width: 250px;
+  height: 100%;
+  width: 100%;
   opacity:0%;
   transition: 0.5s ease;
   background-color: rgba(255,255,255,0.25);
