@@ -30,7 +30,7 @@ z-index: 10;
 .nav-bar-link{text-decoration: none; color: #393939 }
 .nav-bar-text{ list-style-type: none; font-family: Verdana ; font-size: 15px; 
 font-style: normal; display: inline; margin-right: 20px;}
-.nav-bar-heading{ font-family: Verdana ; font-size: 18px;  color: #2d3982; float: left;}
+.nav-bar-heading{ font-family: Verdana ; font-size: 18px;  color: #2d3982; }
 
 .hero-container{background-position: center; background-size: cover; background-repeat: no-repeat;
 
